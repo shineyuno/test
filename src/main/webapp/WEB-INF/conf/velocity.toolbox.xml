@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE toolbox>
+<toolbox>
+	<tool>
+		<key>Config</key>
+		<scope>request</scope>
+		<class>org.apache.velocity.tools.config.Configuration</class>
+	</tool>
+	
+	<tool>
+	    <key>DateTool</key>
+	    <scope>application</scope>
+	    <class>org.apache.velocity.tools.generic.DateTool</class>
+	</tool>
+	
+	<tool>
+	    <key>StringUtils</key>
+	    <scope>application</scope>
+	    <class>org.apache.commons.lang.StringUtils</class>
+	</tool>		
+</toolbox>	
